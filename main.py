@@ -36,6 +36,7 @@ async def snipe_vanity():
     async with ssss.patch(f"https://discord.com/api/v9/guilds/{guild}/vanity-url", json=nigger, headers=headers) as bruh:
       if bruh.status in (200, 201, 204):
         print("[>] KaramveerPlayZ | Vanity Sniped")
+        sys.exit()
 
 async def check_vanity():
   async with aiohttp.ClientSession() as idk:
