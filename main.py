@@ -1,5 +1,4 @@
 import aiohttp
-from aiohttp import ClientSession
 import asyncio
 import sys
 import os
@@ -7,6 +6,8 @@ import json
 import random
 def clear():
   os.system("clear")
+
+clear()
 
 os.system("mode 175,30 & title [Vanity Sniper - KaramveerPlayZ#1337]")
 
@@ -17,6 +18,8 @@ code = input("[>] Vanity Code To Snipe, discord.gg/: ")
 randno = random.randint(10, 99)
 api_ = [6,9,8]
 api = random.choices(api_)
+
+clear()
 
 if bot in ["True", "true", True]:
   headers = {"Authorization": "Bot {}".format(token)}
